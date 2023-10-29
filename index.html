@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ferhat Türe - Portfolyo</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li><a href="#" onclick="toggleMenu">Anasayfa</a></li>
+                <li><a href="#about" onclick="toggleMenu">Hakkımda</a></li>
+                <li><a href="#services" onclick="toggleMenu">Yetenekler</a></li>
+                <li><a href="#contact" onclick="toggleMenu">İletişim</a></li>
+            </ul>
+        </div>
+        <main class="main">
+            <div class="top-bar">
+                <a href="#" class="logo">Ferhat Türe</a>
+                <div class="toggle"><i class="bx bx-menu-alt-right"></i></div>
+            </div>
+
+            <section class="banner" id="banner">
+                <div class="content">
+                    <h3>Ferhat Türe</h3>
+                    <p>Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği - 3. Sınıf</p>
+                    <p>Siber Güvenlik ve Ağ İletişimi İlgilisi</p>
+                    <a href="#" class="btn">CV İndir</a>
+                    <ul class="social-media-buttons">
+                        <li>
+                            <a href="https://github.com/Ferhat30614" target="_blank"><i class="bx bxl-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/ferhat-t%C3%BCre-220344299/" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class "about adjust" id="about">
+                <div class="title">
+                    <h2>Hakkımda</h2>
+                </div>
+                <div class="content">
+                    <div class "text-box">
+                        <p>
+                            Merhaba! Ben Ferhat. Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği Bölümü 3. sınıf öğrencisiyim.
+                            Son bir senedir siber güvenlikle ilgileniyorum. Ağ bilgisini ve cihazların birbiriyle olan iletişimi incelemeyi ve sağlamayı severim.
+                            Ayrıca sistem açıklarını araştırıp bulmaktan ve sistemleri kusursuz hale getirmeye çalışmaktan büyük zevk alırım.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="services adjust" id="services">
+                <div class="title">
+                    <h2>Yetenekler</h2>
+                </div>
+                <div class="content">
+                    <div class="service-box">
+                        <i class="bx bxl-code"></i>
+                        <h2>C, C#, Java</h2>
+                        <p>Üniversitede öğrendiğim programlama dilleri arasında C, C# ve Java bulunuyor.</p>
+                    </div>
+                    <div class="service-box">
+                        <i class="bx bxl-python"></i>
+                        <h2>Python</h2>
+                        <p>Python dili konusunda ileri düzeyde bilgi sahibiyim ve kendi çabalarımla öğrendim.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact adjust" id="contact">
+                <div class="title">
+                    <h2>Benimle İletişime Geç</h2>
+                </div>
+                <div class="form-box">
+                    <div class="row">
+                        <input type="text" name="ad" placeholder="Ad" />
+                        <input type="text" name="soyad" placeholder="Soyad" />
+                    </div>
+                    <div class="row">
+                        <input type="text" name="email" placeholder="Email" />
+                        <input type="text" name="telefon" placeholder="Telefon" />
+                    </div>
+                    <div class="row2">
+                        <textarea name="mesaj" placeholder="Mesaj" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="row2">
+                        <input type="submit" value="Gönder" />
+                    </div>
+                </div>
+            </section>
+
+            <div class="copyright">
+                <p>Copyright <i class='bx bx-copyright'></i> 2023 Ferhat Türe. Tüm hakları saklıdır.</p>
+            </div>
+        </main>
+    </div>
+    <script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
